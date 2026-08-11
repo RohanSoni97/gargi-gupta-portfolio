@@ -1,16 +1,29 @@
-# Gargi Gupta Portfolio
+# Gargi Gupta — HR Systems & Operations Portfolio
 
-Static portfolio website for Gargi Gupta, focused on HR systems, campus recruitment, candidate experience, and people operations.
+A responsive, accessible static portfolio built around Gargi's work in SAP SuccessFactors, employee-data operations, HR case management, early-career hiring, reporting, and AI-assisted workflow automation. It also includes a curated LinkedIn insights section grounded in Gargi's public writing.
 
-## Deploy On GitHub Pages
+## Preview locally
 
-1. Create a public GitHub repository named `gargi-gupta-portfolio`.
-2. Upload `index.html`, `styles.css`, and this `README.md`.
-3. In the repository, open `Settings` > `Pages`.
-4. Set source to `Deploy from a branch`.
-5. Select branch `main` and folder `/root`.
-6. The site will publish at `https://rohansoni97.github.io/gargi-gupta-portfolio/`.
+Open `index.html` directly, or run a local static server:
 
-## Privacy Note
+```powershell
+python -m http.server 4173
+```
 
-The public version intentionally does not include a phone number or resume PDF. Add those only if you want them visible on the public internet.
+Then visit `http://localhost:4173`.
+
+## Publish with GitHub Pages
+
+1. Open the repository's **Settings → Pages**.
+2. Under **Build and deployment**, choose **Deploy from a branch**.
+3. Select `main` and `/ (root)`, then save.
+
+The site is designed for `https://rohansoni97.github.io/gargi-gupta-portfolio/` and can also be deployed on Netlify without a build command.
+
+## Files
+
+- `index.html` — content and semantic structure
+- `styles.css` — responsive visual system and motion
+- `script.js` — mobile navigation, sticky-header state, and reveal animations
+
+The public site intentionally excludes a phone number and downloadable resume. Contact is available through email and LinkedIn.
