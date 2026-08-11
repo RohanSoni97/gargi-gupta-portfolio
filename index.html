@@ -3,203 +3,305 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta
-      name="description"
-      content="Portfolio for Gargi Gupta, focused on HR systems, campus recruitment, candidate experience, and people operations."
-    >
-    <title>Gargi Gupta | HR Systems & Campus Recruitment</title>
+    <meta name="theme-color" content="#111827">
+    <meta name="description" content="Gargi Gupta is an HR systems and operations professional specializing in SAP SuccessFactors, employee data, case management, reporting, and workflow automation.">
+    <meta property="og:title" content="Gargi Gupta | HR Systems & Operations">
+    <meta property="og:description" content="Designing reliable people operations through better systems, cleaner data, and thoughtful automation.">
+    <meta property="og:type" content="website">
+    <title>Gargi Gupta | HR Systems & Operations</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Gargi Gupta home">Gargi Gupta</a>
-      <nav aria-label="Primary navigation">
-        <a href="#work">Work</a>
-        <a href="#case-studies">Case Studies</a>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Gargi Gupta, home">
+        <span class="brand-mark">GG</span>
+        <span>Gargi Gupta</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+        <span></span><span></span><span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <nav id="site-nav" aria-label="Primary navigation" data-nav>
+        <a href="#about">About</a>
+        <a href="#impact">Impact</a>
         <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
+        <a href="#insights">Insights</a>
+        <a href="#toolkit">Toolkit</a>
       </nav>
+      <a class="header-cta" href="#contact">Let’s connect <span aria-hidden="true">↗</span></a>
     </header>
 
-    <main id="top">
-      <section class="hero">
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-orbit" aria-hidden="true">
+          <div class="portrait-mark"><span>GG</span></div>
+          <span class="orbit-dot dot-one"></span>
+          <span class="orbit-dot dot-two"></span>
+          <span class="orbit-label label-one">People</span>
+          <span class="orbit-label label-two">Systems</span>
+          <span class="orbit-label label-three">Data</span>
+        </div>
+
         <div class="hero-copy">
-          <p class="eyebrow">HR Systems | Campus Recruitment | Candidate Experience</p>
-          <h1>Building scalable people processes with systems, data, and candidate-first hiring.</h1>
-          <p class="hero-text">
-            I work across ATS implementation, HRMS operations, campus hiring, and candidate experience,
-            turning recruitment workflows into measurable, repeatable programs.
-          </p>
-          <div class="hero-actions" aria-label="Primary actions">
-            <a class="button primary" href="#case-studies">View Work</a>
-            <a class="button secondary" href="#contact">Get In Touch</a>
+          <p class="kicker">Hello, I’m</p>
+          <h1>Gargi Gupta</h1>
+          <p class="role">HR Systems &amp; Operations</p>
+          <p class="hero-intro">I turn complex employee workflows into reliable, measurable operations—combining HR technology, clean data, and practical automation.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#impact">Explore my impact <span aria-hidden="true">↓</span></a>
+            <a class="button button-ghost" href="mailto:gargigupta777@gmail.com">Email me <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-proof" aria-label="Selected career metrics">
+            <div><strong>1,000+</strong><span>employees supported</span></div>
+            <div><strong>450+</strong><span>acquisition onboardings</span></div>
+            <div><strong>45 min</strong><span>saved every day</span></div>
           </div>
         </div>
-        <aside class="impact-panel" aria-label="Selected impact metrics">
-          <div>
-            <strong>35%</strong>
-            <span>screening efficiency improvement after Greenhouse launch</span>
-          </div>
-          <div>
-            <strong>75%</strong>
-            <span>increase in timely interview closures through scorecard redesign</span>
-          </div>
-          <div>
-            <strong>+36</strong>
-            <span>point candidate NPS movement, from -8 to +28</span>
-          </div>
-          <div>
-            <strong>450+</strong>
-            <span>employees bulk-onboarded during acquisition integration</span>
-          </div>
-        </aside>
       </section>
 
-      <section id="work" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Focus Areas</p>
-          <h2>Where I Create Leverage</h2>
+      <section class="about section" id="about">
+        <div class="section-label"><span>01</span> About</div>
+        <div class="about-copy reveal">
+          <p class="statement">I build the operational layer that lets people teams move with confidence.</p>
+          <div class="about-columns">
+            <p>Based in Bengaluru, I work where people operations, technology, and service delivery meet. At Groww, I administer HR systems across the employee lifecycle, maintain data integrity, resolve high-priority cases, and coordinate workflows across HR, IT, Admin, Finance, and vendors.</p>
+            <p>My approach is simple: understand the real handoffs, make ownership visible, automate the repeatable work, and document the system so it keeps working. Alongside HRIS and operations, my work spans early-career hiring, candidate experience, learning operations, engagement programs, and people analytics.</p>
+          </div>
         </div>
-        <div class="focus-grid">
+        <div class="expertise-grid reveal">
           <article>
-            <h3>HR Systems</h3>
-            <p>Greenhouse ATS implementation, SuccessFactors workflows, LMS operations, data migration, and process governance.</p>
+            <span class="card-icon" aria-hidden="true">◇</span>
+            <h3>HRIS &amp; Employee Data</h3>
+            <p>SuccessFactors administration, lifecycle transactions, controlled workflows, onboarding, validation, and audit-ready data hygiene.</p>
           </article>
           <article>
-            <h3>Campus Recruitment</h3>
-            <p>Competition-led hiring programs, campus execution, assessment redesign, and stakeholder coordination.</p>
+            <span class="card-icon" aria-hidden="true">◎</span>
+            <h3>Case &amp; Service Operations</h3>
+            <p>Employee-query resolution, SLA tracking, owner coordination, structured intake, escalation, and closure discipline.</p>
           </article>
           <article>
-            <h3>Candidate Experience</h3>
-            <p>Survey design, cNPS analysis, interview feedback loops, and recruiter-team collaboration.</p>
+            <span class="card-icon" aria-hidden="true">↗</span>
+            <h3>Automation &amp; Reporting</h3>
+            <p>AI-assisted digests, automated trackers, dashboard cadences, metrics, and workflow improvements built for daily use.</p>
+          </article>
+          <article>
+            <span class="card-icon" aria-hidden="true">⌘</span>
+            <h3>Implementation &amp; Enablement</h3>
+            <p>Requirements gathering, migration, integration design, vendor collaboration, SOPs, work instructions, and user support.</p>
           </article>
         </div>
       </section>
 
-      <section id="case-studies" class="section case-section">
-        <div class="section-heading">
-          <p class="eyebrow">Selected Work</p>
-          <h2>Case Studies</h2>
+      <section class="impact section section-dark" id="impact">
+        <div class="section-label"><span>02</span> Selected impact</div>
+        <div class="section-heading reveal">
+          <p class="kicker">Work that moved the operation forward</p>
+          <h2>Systems are only useful when they make work better.</h2>
         </div>
-        <div class="case-list">
-          <article class="case-item">
-            <div>
-              <span class="case-label">ATS Implementation</span>
-              <h3>Greenhouse Rollout and Optimization</h3>
-            </div>
-            <p>
-              Led the end-to-end implementation of Greenhouse, including requirement gathering,
-              integrations, data flow design, migration from Sense, and scorecard redesign.
-            </p>
-            <ul>
-              <li>Improved screening efficiency by 35%.</li>
-              <li>Increased timely interview closures by 75%.</li>
-              <li>Completed core migration within 1 month.</li>
-            </ul>
+        <div class="project-grid">
+          <article class="project-card project-featured reveal">
+            <div class="project-topline"><span>HRIS Integration</span><span>01</span></div>
+            <h3>450+ employees onboarded through an acquisition integration</h3>
+            <p>Led the SAP SuccessFactors integration for the Fisdom acquisition, configuring legal-entity workflows and coordinating bulk onboarding while protecting employee-data continuity.</p>
+            <ul class="tags"><li>SuccessFactors</li><li>Data migration</li><li>Cross-functional</li></ul>
+            <div class="project-metric"><strong>450+</strong><span>employees integrated</span></div>
           </article>
 
-          <article class="case-item">
-            <div>
-              <span class="case-label">Campus Hiring</span>
-              <h3>W by Groww Program</h3>
-            </div>
-            <p>
-              Designed and launched a competition-based wealth hiring program across 5 college campuses,
-              partnering with HackerEarth plus internal brand and design teams.
-            </p>
-            <ul>
-              <li>Hired 20+ candidates from the pilot program.</li>
-              <li>Created the foundation for a nationwide annual initiative.</li>
-              <li>Expanded the program target to 10+ colleges across India from 2026.</li>
-            </ul>
+          <article class="project-card reveal">
+            <div class="project-topline"><span>Codex Skill · Daily Ops</span><span>02</span></div>
+            <h3>An AI-assisted operating rhythm for cases, risks, and follow-ups</h3>
+            <p>Built a reusable Daily Ops Digest workflow that brings a Jira queue and SuccessFactors Request Tracker into one executive-readable update—surfacing recent movement, aging items, owners, risks, and next actions without replacing human review.</p>
+            <ul class="tags"><li>Codex skill</li><li>Jira</li><li>SuccessFactors tracker</li><li>AI workflow</li></ul>
+            <div class="project-metric"><strong>45 min</strong><span>saved per day</span></div>
           </article>
 
-          <article class="case-item">
-            <div>
-              <span class="case-label">Candidate Experience</span>
-              <h3>Post-Interview Feedback System</h3>
-            </div>
-            <p>
-              Designed, deployed, and analyzed post-interview surveys to uncover candidate experience gaps,
-              then partnered with team leads to drive process changes.
-            </p>
-            <ul>
-              <li>Moved cNPS from -8 to +28.</li>
-              <li>Created a recurring feedback loop for recruiting teams.</li>
-              <li>Translated survey insights into operational changes.</li>
-            </ul>
+          <article class="project-card reveal">
+            <div class="project-topline"><span>ATS Implementation</span><span>03</span></div>
+            <h3>From requirements to a live Greenhouse operation in one month</h3>
+            <p>Owned implementation and migration from Sense ATS, including workflow design, integrations, data flows, operational controls, scorecards, and issue resolution.</p>
+            <ul class="tags"><li>Greenhouse</li><li>Implementation</li><li>Process design</li></ul>
+            <div class="project-metric"><strong>1 month</strong><span>core transition</span></div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-topline"><span>Reporting</span><span>04</span></div>
+            <h3>Program dashboards with dependable reporting</h3>
+            <p>Created Excel dashboards for Learning Wallet and Engagement Budget programs, automating tracking and establishing a clearer operating cadence.</p>
+            <ul class="tags"><li>Excel</li><li>Dashboards</li><li>Data quality</li></ul>
+            <div class="project-metric"><strong>95%</strong><span>reporting accuracy</span></div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-topline"><span>Early Careers</span><span>05</span></div>
+            <h3>Campus programs built as repeatable talent pipelines</h3>
+            <p>Built W by Groww across five colleges with 20+ hires and supported 30+ SDE intern hires across eight campuses—using assessment analytics, employer-brand collaboration, and structured candidate communication.</p>
+            <ul class="tags"><li>Campus hiring</li><li>Employer brand</li><li>Assessment design</li></ul>
+            <div class="project-metric"><strong>50+</strong><span>campus hiring outcomes</span></div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-topline"><span>Candidate Experience</span><span>06</span></div>
+            <h3>Feedback translated into measurable experience gains</h3>
+            <p>Designed and analyzed post-interview surveys, then partnered with recruiting leads to turn insights into operating improvements.</p>
+            <ul class="tags"><li>cNPS</li><li>Survey design</li><li>Feedback loops</li></ul>
+            <div class="project-metric"><strong>−8 → +28</strong><span>candidate NPS</span></div>
           </article>
         </div>
       </section>
 
-      <section id="experience" class="section split-section">
-        <div class="section-heading">
-          <p class="eyebrow">Experience</p>
-          <h2>Professional Journey</h2>
-        </div>
-        <div class="timeline">
-          <article>
-            <span>Apr 2025 - Present</span>
-            <h3>Senior Associate, Groww</h3>
-            <p>
-              Managing Greenhouse ATS, SuccessFactors HRMS lifecycle operations for 1000+ employees,
-              LMS setup, campus hiring programs, and candidate experience initiatives.
-            </p>
-          </article>
-          <article>
-            <span>Apr 2024 - Mar 2025</span>
-            <h3>Associate, Groww</h3>
-            <p>
-              Built HR analytics trackers, SOPs, recruitment metrics, and the initial Greenhouse
-              implementation and migration plan.
-            </p>
-          </article>
-          <article>
-            <span>Apr 2023 - May 2023</span>
-            <h3>Recruitment Intern, Compunnel Inc.</h3>
-            <p>
-              Supported job postings, resume screening, interview scheduling, and recruitment coordination,
-              contributing to 3 closures in 2 months.
-            </p>
-          </article>
+      <section class="experience section" id="experience">
+        <div class="section-label"><span>03</span> Experience</div>
+        <div class="experience-layout">
+          <div class="experience-intro reveal">
+            <p class="kicker">Professional journey</p>
+            <h2>Building depth across the people-operations stack.</h2>
+            <p>Promoted within a year at Groww, with increasing ownership across HRIS, employee data, system implementation, automation, and service operations.</p>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item reveal">
+              <div class="timeline-date">Apr 2025 — Present</div>
+              <div class="timeline-content">
+                <p class="company">Groww · Bengaluru</p>
+                <h3>Senior Associate</h3>
+                <ul>
+                  <li>Administer SAP SuccessFactors for 1,000+ employees across onboarding, employee data, workflows, and lifecycle operations.</li>
+                  <li>Own HR case resolution and cross-functional handoffs under tight service-level expectations.</li>
+                  <li>Build AI-assisted workflows, dashboards, controls, and documentation that improve execution visibility and data quality.</li>
+                  <li>Support feedback programs, Melimu LMS operations, employee engagement initiatives, and early-career hiring.</li>
+                </ul>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-date">Apr 2024 — Mar 2025</div>
+              <div class="timeline-content">
+                <p class="company">Groww · Bengaluru</p>
+                <h3>Associate</h3>
+                <ul>
+                  <li>Managed Greenhouse ATS operations across workflow design, data quality, scorecards, candidate records, and issue resolution.</li>
+                  <li>Built HR program trackers, reporting cadences, metrics, SOPs, and standardized handoffs; helped improve screening efficiency by 35% and timely interview closures by 75%.</li>
+                </ul>
+              </div>
+            </article>
+            <article class="timeline-item reveal">
+              <div class="timeline-date">Apr 2023 — May 2023</div>
+              <div class="timeline-content">
+                <p class="company">Compunnel Inc.</p>
+                <h3>Recruitment Intern</h3>
+                <ul>
+                  <li>Managed hiring operations for Business Analyst roles from job posting through interview coordination.</li>
+                  <li>Closed three positions within two months.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="section education-section">
-        <div class="section-heading">
-          <p class="eyebrow">Education</p>
-          <h2>Academic Background</h2>
+      <section class="insights section" id="insights">
+        <div class="section-label"><span>04</span> Ideas in public</div>
+        <div class="insights-heading reveal">
+          <div>
+            <p class="kicker">Writing on LinkedIn</p>
+            <h2>Learning in public about the human side of systems.</h2>
+          </div>
+          <div class="insights-community">
+            <strong>5K+</strong>
+            <span>professional community</span>
+          </div>
         </div>
-        <div class="education-grid">
+        <div class="insight-grid">
+          <article class="insight-card reveal">
+            <span class="insight-number">01</span>
+            <p class="insight-topic">HR systems</p>
+            <h3>Clean data is employee-experience infrastructure.</h3>
+            <p>Onboarding, payroll, access, reporting, and employee records all inherit the quality of the underlying data. Operational discipline is not back-office detail—it is trust.</p>
+          </article>
+          <article class="insight-card reveal">
+            <span class="insight-number">02</span>
+            <p class="insight-topic">AI &amp; judgment</p>
+            <h3>Let AI create speed. Keep people responsible for judgment.</h3>
+            <p>Automation can summarize, structure, draft, and flag. Empathy, context, constructive feedback, and the final decision still need a thoughtful human owner.</p>
+          </article>
+          <article class="insight-card reveal">
+            <span class="insight-number">03</span>
+            <p class="insight-topic">Process design</p>
+            <h3>A tool does not fix a broken process. It makes the gaps visible.</h3>
+            <p>Successful HR-tech implementation starts with clarity: defined stages, useful scorecards, clean ownership, reliable handoffs, and reports people can actually trust.</p>
+          </article>
+        </div>
+        <a class="insights-link reveal" href="https://www.linkedin.com/in/gargigupta6/recent-activity/all/" target="_blank" rel="noreferrer">Read my recent posts on LinkedIn <span aria-hidden="true">↗</span></a>
+      </section>
+
+      <section class="toolkit section section-soft" id="toolkit">
+        <div class="section-label"><span>05</span> Toolkit</div>
+        <div class="toolkit-layout">
+          <div class="section-heading reveal">
+            <p class="kicker">Skills &amp; systems</p>
+            <h2>A practical toolkit for dependable people operations.</h2>
+          </div>
+          <div class="skill-groups reveal">
+            <article>
+              <h3>HR technology</h3>
+              <div class="skill-list"><span>SAP SuccessFactors</span><span>Greenhouse ATS</span><span>Melimu LMS</span><span>Jira</span><span>Codex skills</span></div>
+            </article>
+            <article>
+              <h3>Data &amp; reporting</h3>
+              <div class="skill-list"><span>Excel dashboards</span><span>Google Sheets</span><span>HR reporting</span><span>Data audits</span><span>Metrics</span></div>
+            </article>
+            <article>
+              <h3>Operations</h3>
+              <div class="skill-list"><span>Employee lifecycle</span><span>Case triage</span><span>SLA / TAT</span><span>Onboarding</span><span>Data integrity</span></div>
+            </article>
+            <article>
+              <h3>Design &amp; enablement</h3>
+              <div class="skill-list"><span>Workflow automation</span><span>AI-assisted operations</span><span>Requirements gathering</span><span>SOPs</span><span>Vendor coordination</span><span>Process governance</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="education section">
+        <div class="section-label"><span>06</span> Education</div>
+        <div class="education-grid reveal">
           <article>
-            <h3>MBA</h3>
-            <p>NMIMS, Bengaluru</p>
             <span>2024</span>
+            <h3>MBA · Human Resources</h3>
+            <p>NMIMS, Bengaluru</p>
           </article>
           <article>
-            <h3>B.Com, Accounting & Finance</h3>
-            <p>Narsee Monjee College of Commerce and Economics, Mumbai</p>
             <span>2021</span>
+            <h3>B.Com · Accounting &amp; Finance</h3>
+            <p>Narsee Monjee College of Commerce and Economics, Mumbai</p>
+          </article>
+          <article class="education-note">
+            <span>Leadership</span>
+            <h3>Vice President · Anveshan</h3>
+            <p>The Research Club at NMIMS Bengaluru, 2023–24</p>
           </article>
         </div>
       </section>
 
-      <section id="contact" class="contact-section">
-        <p class="eyebrow">Contact</p>
-        <h2>Open to HR systems, people operations, and campus recruitment opportunities.</h2>
-        <p>
-          Add your preferred LinkedIn and email links here before publishing, or keep this page as a
-          clean case-study portfolio connected from LinkedIn and GitHub.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="https://www.linkedin.com/" rel="noreferrer">LinkedIn</a>
-          <a class="button secondary" href="mailto:hello@example.com">Email</a>
+      <section class="contact" id="contact">
+        <div class="contact-inner reveal">
+          <p class="kicker">Let’s build better people operations</p>
+          <h2>Have a systems problem worth untangling?</h2>
+          <p>I’m open to conversations around HR systems, HR operations, employee experience, and automation.</p>
+          <div class="contact-actions">
+            <a class="button button-light" href="mailto:gargigupta777@gmail.com">gargigupta777@gmail.com <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline-light" href="https://www.linkedin.com/in/gargigupta6" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="contact-meta">
+          <span>Bengaluru, India</span>
+          <span>© <span data-year>2026</span> Gargi Gupta</span>
         </div>
       </section>
     </main>
-
-    <footer>
-      <p>Gargi Gupta - HR Systems, Campus Recruitment, Candidate Experience</p>
-    </footer>
   </body>
 </html>
