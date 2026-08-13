@@ -150,6 +150,8 @@ nav a:hover, .header-cta:hover { text-decoration: underline; text-underline-offs
 .contact-inner > p:not(.kicker) { max-width: 740px; color: rgba(255,255,255,.6); }
 .button-light { color: var(--ink); background: var(--white); border-color: var(--white); }
 .button-outline-light { color: var(--white); border-color: rgba(255,255,255,.38); }
+.contact button { font-family: inherit; cursor: pointer; }
+.copy-status { min-height: 1.5em; margin: 13px 0 0; color: rgba(255,255,255,.58); font-size: .78rem; }
 .contact-meta { display: flex; justify-content: space-between; margin-top: 115px; padding-top: 22px; color: rgba(255,255,255,.4); border-top: 1px solid rgba(255,255,255,.14); font-size: .74rem; }
 
 .reveal { opacity: 1; transform: none; }
