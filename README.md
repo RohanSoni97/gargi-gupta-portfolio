@@ -1,6 +1,6 @@
 # Gargi Gupta — HR Systems & Operations Portfolio
 
-A responsive, accessible static portfolio built around Gargi's work in SAP SuccessFactors, employee-data operations, HR case management, early-career hiring, reporting, and AI-assisted workflow automation. It also includes a curated LinkedIn insights section grounded in Gargi's public writing.
+A responsive, accessible portfolio presenting Gargi's work across campus recruitment, employer branding, candidate and employee experience, HR operations, people programs, analytics, HR systems, and practical automation. The content is grounded in measurable resume outcomes and Gargi's public LinkedIn writing.
 
 ## Preview locally
 
