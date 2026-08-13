@@ -35,3 +35,18 @@ const observer = new IntersectionObserver(
 
 document.querySelectorAll(".reveal").forEach((element) => observer.observe(element));
 document.querySelector("[data-year]").textContent = new Date().getFullYear();
+
+const copyEmailButton = document.querySelector("[data-copy-email]");
+const copyStatus = document.querySelector("[data-copy-status]");
+
+copyEmailButton?.addEventListener("click", async () => {
+  const email = copyEmailButton.dataset.email;
+
+  try {
+    await navigator.clipboard.writeText(email);
+    copyEmailButton.textContent = "Email copied";
+    if (copyStatus) copyStatus.textContent = `${email} copied to clipboard.`;
+  } catch {
+    if (copyStatus) copyStatus.textContent = `Email: ${email}`;
+  }
+});
